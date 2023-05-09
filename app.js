@@ -8,5 +8,5 @@ app.listen(process.env.PORT || 3001, ()=>{
 });
 
 app.get('/', (req,res)=>{
-    res.sendFile(__dirname + '/views/home.html');
+    res.sendFile(__dirname + '/index.html');
 });
