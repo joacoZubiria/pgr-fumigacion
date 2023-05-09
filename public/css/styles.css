@@ -1,7 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    /* font-family:  'Montserrat', sans-serif; */
+    font-family:  'Montserrat', sans-serif; 
     scroll-behavior: smooth;
     
   }
@@ -11,7 +11,11 @@
   span{
     cursor: default;
   }
+  html{
+    overflow-x: hidden;
+  }
   .body{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -303,8 +307,8 @@
   }
   .card{
     align-items: center;
-    margin: 2.5rem 1rem 0px 0.4rem;
-    padding:0 2rem 3rem 2rem;
+    margin: 2.5rem 1rem 0.4rem 1rem;
+    padding:0 3rem 3rem 3rem;
     border: #1f1f1f solid 1px;
     display: flex;
     width: 80%;
@@ -358,7 +362,7 @@
   .cta {
     position: relative;
     margin: auto;
-    padding: 12px 18px;
+    padding: 0.4rem 0.6rem;
     transition: all 0.2s ease;
     border: none;
     background: none;
@@ -374,7 +378,7 @@
     border-radius: 50px;
     background: #71e164;
     width: 45px;
-    height: 45px;
+    height: 3rem;
     transition: all 0.3s ease;
    }
    
@@ -587,6 +591,9 @@
     justify-content: space-around;
   }
   .side-menu a{
+    background-color: bisque;
+    padding: 0.6rem;
+    border-radius: 5px;
     text-decoration: none;
     color: rgb(0, 0, 0);
   }
@@ -1097,7 +1104,7 @@
     display: flex;
     justify-content: center;
     background-color: #5c5c5c;
-    /* background-image: url(/images/ants5grayblack.jpg); */
+    background-image: url(../images/ants5grayblack.jpg); 
     background-size: 450px;
   }
 
@@ -1114,6 +1121,11 @@
   
   div.rights{
     padding: 0 0 1rem 0;
+  }
+  div.rights p{
+    padding: 0.3rem;
+    background-color: #424242;
+    border-radius: 5px;
   }
   div.wpp{
     display: flex;
@@ -1158,6 +1170,15 @@
     font-weight: 600;
     text-transform: uppercase;
   }
+  .aaaa span, .aaaa a, .aaaa p{
+    display: flex;
+    justify-content: center;
+  }
+  .background-cards{
+    background-color: rgba(0,0,0,0.88);
+    padding: 0.8rem;
+    border-radius: 5px;
+  }
   .social-media a{
     text-decoration: none;
     color: #ffffff;
@@ -1193,6 +1214,7 @@
     z-index: 1;
     text-transform: lowercase;
     cursor: text;
+    font-size: 0.87rem;
   }
   .contact-info{
     text-transform: none;
@@ -1436,10 +1458,10 @@
     align-items: center;
     }
     .social-media-home{
-      width: 100px;
+      width: 100%;
     }
     .mainHome{
-      background-image: url(/images/ab1.jpg);
+      background-image: url(../images/ab1.jpg);
       background-size: cover;
       width: 100%;
       z-index: 0;
@@ -1462,7 +1484,7 @@
       display: flex;
       justify-content: center;
       background-color: #5c5c5c;
-      /* background-image: url(/images/ants5grayblack.jpg); */
+      background-image: url(../images/ants5grayblack.jpg); 
       background-size: 450px;
     }
   }
